@@ -20,19 +20,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'fortest' );
 
 /** Database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         ']66GgFqCcF}&BG+[U_WmAz1g&$r6>JMimUG=,a1+95,z6/r`;2ridi=[>4!#jjgb' );
+define( 'SECURE_AUTH_KEY',  ']nPorXL`J7t@1UT }eY.`%/@kSCA0*#d+DfT937o//#0?m?/2aw7l?4Mc~k5Sk(E' );
+define( 'LOGGED_IN_KEY',    '~s60k7Sr1ImOGJvmR2x:6MG*|wAwpR>/gji:iBv&]O+#ZP/@7iEDX.OetU^QZNhy' );
+define( 'NONCE_KEY',        'ff|V({npK9kQ0-#w={&.Wm[ ,:jplQ{{F!QS0EE,Addb:b_?x_Q$vi`W>2s!.g[n' );
+define( 'AUTH_SALT',        'Wk6UX/G4>?82J&/u:3q$B=V,MdOa62Mi |^6l-TPF?R(0_+r7{Z*XFsC A||hk?N' );
+define( 'SECURE_AUTH_SALT', 'o&0T(SSG5!W:o7q2VYt}45[nvl!@en2CF_d/)J}UmTgy6s=`&(.9m&Pq8953ulb<' );
+define( 'LOGGED_IN_SALT',   's !l+];uQw1>{ :xw3?{h&? -+:~I/-64x!c{T$zd 6T_S3X2db)DTyO+tns7@4<' );
+define( 'NONCE_SALT',       'USsdWi[6473)?zPPE<wDR@Mue<qmzdi}Du_O?a!y2QX[pQ=fazq~nb5Y8S<p{C_W' );
 
 /**#@-*/
 
